@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  background-image: url(images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: 100% 50%;
+  background-color: hsl(229, 57%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: hsl(228, 56%, 26%);
+  width: 25%;
+  height: 30%;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  border-radius: 1rem 5rem 1rem 1rem;
+  text-align: center;
+}
+
+.storage {
+  background-color: hsl(228, 56%, 26%);
+  height: 25%;
+  width: 35%;
+  position: absolute;
+  right: 15%;
+  bottom: 35%;
+  border-radius: 1rem;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.logo-img {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}
+
+.document {
+  position: absolute;
+  bottom: 50px;
+  left: 70px;
+  cursor: pointer;
+}
+
+.folder {
+  position: absolute;
+  bottom: 50px;
+  left: 140px;
+  cursor: pointer;
+}
+
+.upload {
+  position: absolute;
+  bottom: 50px;
+  left: 210px;
+  cursor: pointer;
+}
+
+.rem-text {
+  position: relative;
+  top: 40px;
+  right: 85px;
+  width: fit-content;
+}
+
+.bar {
+  position: relative;
+  top: 60px;
+  right: 10px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 1rem;
+  height: 20px;
+  width: 80%;
+}
+
+.progress {
+  position: relative;
+  top: 42px;
+  right: 32px;
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  border-radius: 1rem;
+  height: 16px;
+  width: 70%;
+}
+
+.rem {
+  float: left;
+  position: absolute;
+  top: 30px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.total {
+  float: right;
+  position: relative;
+  top: 30px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.circle {
+  background-color: white;
+  height: 12px;
+  width: 12px;
+  position: relative;
+  right: 2px;
+  top: 2px;
+  border-radius: 1rem;
+  float: right;
+}
+
+.popup {
+  position: absolute;
+  top: 32%;
+  right: 17%;
+  background-color: white;
+  height: 8%;
+  width: 10%;
+  text-align: center;
+  border-radius: 10px 10px 0px 10px;
+  font-size: 12px;
+  padding-top: 2px;
+  color: rgb(66, 65, 65);
+}
+
+.usage {
+  font-weight: bold;
+  font-size: 2rem;
+  color: black;
+}
+
+#triangle {
+  position: absolute;
+  right: 17%;
+  bottom: 57%;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 35px 35px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.popup p {
+  padding-top: 5px;
+}
+
+.usage-2 {
+  vertical-align: super;
+}
